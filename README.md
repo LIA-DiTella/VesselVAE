@@ -2,5 +2,5 @@
 
 ![teaser](overview.png)
 
-# Code # VesselVAE
+# Code 
 COMING SOON
