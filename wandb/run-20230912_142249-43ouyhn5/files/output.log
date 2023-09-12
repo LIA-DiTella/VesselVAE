@@ -1,5 +1,0 @@
-
-Epoch [1 / 200000] average reconstruction error: 0.0816017811 , kl(*beta): 0.0825024629 (0.0000825025), reconstruction loss: 0.0815935303
-total parameters encoder  1291008
-total parameters decoder 495111
-total parameters 1786119
