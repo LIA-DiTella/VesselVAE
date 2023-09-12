@@ -13,7 +13,7 @@ By leveraging the power of deep neural networks, we generate 3D models of blood 
 
 [Demo](https://huggingface.co/spaces/paufeldman/vv)
 
-[Dataset] (https://github.com/intra3d2019/IntrA)
+[Dataset](https://github.com/intra3d2019/IntrA)
 
 # Code 
 For the whole preprocessing pipeline, from mesh to binary tree run sections.ipynb (preprocessing folder)
