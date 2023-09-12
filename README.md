@@ -16,6 +16,9 @@ By leveraging the power of deep neural networks, we generate 3D models of blood 
 [Dataset](https://github.com/intra3d2019/IntrA)
 
 # Code 
-For the whole preprocessing pipeline, from mesh to binary tree run sections.ipynb (preprocessing folder)
+For the whole preprocessing pipeline, from mesh to binary tree run sections.ipynb (preprocessing folder). 
+Already binarized trees from the dataset are available in the trees folder
 
 To train the network, run VesselVAE.ipynb
+
+
