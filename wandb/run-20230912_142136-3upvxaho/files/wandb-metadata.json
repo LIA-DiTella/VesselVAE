@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-09-12T17:21:38.516898",
+    "startedAt": "2023-09-12T17:21:36.950741",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/LIA-DiTella/VesselVAE.git",
+        "commit": "46e2b83803c8f2d389de0ebef75f89de8b5a03fb"
+    },
+    "email": "paulaadifeldman1@gmail.com",
+    "root": "C:/Users/User/Documents/VesselVAE",
+    "host": "DESKTOP-ET9L3J1",
+    "username": "User",
+    "executable": "c:\\Users\\User\\anaconda3\\envs\\py_torch\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3901.0,
+        "min": 0.0,
+        "max": 3901.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3901.0,
+            "min": 0.0,
+            "max": 3901.0
+        }
+    ],
+    "disk": {
+        "total": 446.5058822631836,
+        "used": 328.9301109313965
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.374500274658203
+    }
+}

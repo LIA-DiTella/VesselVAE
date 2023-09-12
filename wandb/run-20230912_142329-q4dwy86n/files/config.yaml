@@ -1,0 +1,159 @@
+wandb_version: 1
+
+learning_rate:
+  desc: null
+  value: 0.0001
+epochs:
+  desc: null
+  value: 200000
+batch_size:
+  desc: null
+  value: 2
+dataset:
+  desc: null
+  value:
+  - p10ArteryObjAN1-0_tree.dat
+  - p10ArteryObjAN1-11_tree.dat
+  - p10ArteryObjAN1-12_tree.dat
+  - p10ArteryObjAN1-15_tree.dat
+  - p10ArteryObjAN1-16_tree.dat
+  - p10ArteryObjAN1-17_tree.dat
+  - p10ArteryObjAN1-19_tree.dat
+  - p10ArteryObjAN1-2_tree.dat
+  - p10ArteryObjAN1-4_tree.dat
+  - p10ArteryObjAN1-5_tree.dat
+  - p10ArteryObjAN1-6_tree.dat
+  - p10ArteryObjAN1-7_tree.dat
+  - p10ArteryObjAN11-0_tree.dat
+  - p10ArteryObjAN11-11_tree.dat
+  - p10ArteryObjAN11-16_tree.dat
+  - p10ArteryObjAN11-17_tree.dat
+  - p10ArteryObjAN11-1_tree.dat
+  - p10ArteryObjAN11-2_tree.dat
+  - p10ArteryObjAN11-3_tree.dat
+  - p10ArteryObjAN11-4_tree.dat
+  - p10ArteryObjAN11-6_tree.dat
+  - p10ArteryObjAN11-8_tree.dat
+  - p10ArteryObjAN116-0_tree.dat
+  - p10ArteryObjAN116-10_tree.dat
+  - p10ArteryObjAN116-11_tree.dat
+  - p10ArteryObjAN116-12_tree.dat
+  - p10ArteryObjAN116-15_tree.dat
+  - p10ArteryObjAN116-16_tree.dat
+  - p10ArteryObjAN116-17_tree.dat
+  - p10ArteryObjAN116-1_tree.dat
+  - p10ArteryObjAN116-2_tree.dat
+  - p10ArteryObjAN116-3_tree.dat
+  - p10ArteryObjAN116-4_tree.dat
+  - p10ArteryObjAN116-6_tree.dat
+  - p10ArteryObjAN116-7_tree.dat
+  - p10ArteryObjAN116-8_tree.dat
+  - p10ArteryObjAN116-9_tree.dat
+  - p10ArteryObjAN117-0_tree.dat
+  - p10ArteryObjAN117-10_tree.dat
+  - p10ArteryObjAN117-11_tree.dat
+  - p10ArteryObjAN117-12_tree.dat
+  - p10ArteryObjAN117-14_tree.dat
+  - p10ArteryObjAN117-15_tree.dat
+  - p10ArteryObjAN117-16_tree.dat
+  - p10ArteryObjAN117-18_tree.dat
+  - p10ArteryObjAN117-19_tree.dat
+  - p10ArteryObjAN117-2_tree.dat
+  - p10ArteryObjAN117-3_tree.dat
+  - p10ArteryObjAN117-5_tree.dat
+  - p10ArteryObjAN117-6_tree.dat
+  - p10ArteryObjAN117-7_tree.dat
+  - p10ArteryObjAN117-8_tree.dat
+  - p10ArteryObjAN117-9_tree.dat
+  - p10ArteryObjAN119-0_tree.dat
+  - p10ArteryObjAN119-10_tree.dat
+  - p10ArteryObjAN119-11_tree.dat
+  - p10ArteryObjAN119-12_tree.dat
+  - p10ArteryObjAN119-13_tree.dat
+  - p10ArteryObjAN119-14_tree.dat
+  - p10ArteryObjAN119-15_tree.dat
+  - p10ArteryObjAN119-16_tree.dat
+  - p10ArteryObjAN119-17_tree.dat
+  - p10ArteryObjAN119-18_tree.dat
+  - p10ArteryObjAN119-19_tree.dat
+  - p10ArteryObjAN119-1_tree.dat
+  - p10ArteryObjAN119-2_tree.dat
+  - p10ArteryObjAN119-3_tree.dat
+  - p10ArteryObjAN119-4_tree.dat
+  - p10ArteryObjAN119-5_tree.dat
+  - p10ArteryObjAN119-7_tree.dat
+  - p10ArteryObjAN120-10_tree.dat
+  - p10ArteryObjAN120-11_tree.dat
+  - p10ArteryObjAN120-13_tree.dat
+  - p10ArteryObjAN120-14_tree.dat
+  - p10ArteryObjAN120-16_tree.dat
+  - p10ArteryObjAN120-17_tree.dat
+  - p10ArteryObjAN120-19_tree.dat
+  - p10ArteryObjAN120-1_tree.dat
+  - p10ArteryObjAN120-2_tree.dat
+  - p10ArteryObjAN120-4_tree.dat
+  - p10ArteryObjAN120-5_tree.dat
+  - p10ArteryObjAN120-7_tree.dat
+  - p10ArteryObjAN120-8_tree.dat
+  - p10ArteryObjAN121-0_tree.dat
+  - p10ArteryObjAN121-12_tree.dat
+  - p10ArteryObjAN121-13_tree.dat
+  - p10ArteryObjAN121-15_tree.dat
+  - p10ArteryObjAN121-17_tree.dat
+  - p10ArteryObjAN121-18_tree.dat
+  - p10ArteryObjAN121-19_tree.dat
+  - p10ArteryObjAN121-1_tree.dat
+  - p10ArteryObjAN121-2_tree.dat
+  - p10ArteryObjAN121-3_tree.dat
+  - p10ArteryObjAN121-4_tree.dat
+  - p10ArteryObjAN121-5_tree.dat
+  - p10ArteryObjAN121-7_tree.dat
+  - p10ArteryObjAN121-9_tree.dat
+  - p10ArteryObjAN125-0_tree.dat
+  - p10ArteryObjAN125-10_tree.dat
+  - p10ArteryObjAN125-11_tree.dat
+number of trees:
+  desc: null
+  value: 100
+optim:
+  desc: null
+  value: "Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n\
+    \    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach:\
+    \ None\n    fused: None\n    lr: 0.0001\n    maximize: False\n    weight_decay:\
+    \ 0\n)"
+latent_size:
+  desc: null
+  value: 128
+params:
+  desc: null
+  value: 1786119
+prof:
+  desc: null
+  value: 10
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.15.8
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1694539415.900243
+    t:
+      1:
+      - 1
+      - 55
+      - 105
+      2:
+      - 1
+      - 55
+      - 105
+      3:
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.15.8
+      8:
+      - 1
+      - 3
+      - 5

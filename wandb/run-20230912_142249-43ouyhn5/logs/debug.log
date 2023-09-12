@@ -1,0 +1,118 @@
+2023-09-12 14:22:49,113 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-09-12 14:22:49,113 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Configure stats pid to 19528
+2023-09-12 14:22:49,113 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Loading settings from C:\Users\User\.config\wandb\settings
+2023-09-12 14:22:49,113 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Loading settings from c:\Users\User\Documents\VesselVAE\wandb\settings
+2023-09-12 14:22:49,113 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-12 14:22:49,114 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-12 14:22:49,114 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-12 14:22:49,114 INFO    MainThread:19528 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\User\Documents\VesselVAE\wandb\run-20230912_142249-43ouyhn5\logs\debug.log
+2023-09-12 14:22:49,114 INFO    MainThread:19528 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\User\Documents\VesselVAE\wandb\run-20230912_142249-43ouyhn5\logs\debug-internal.log
+2023-09-12 14:22:49,114 INFO    MainThread:19528 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001B13F5EECE0>
+2023-09-12 14:22:49,115 INFO    MainThread:19528 [wandb_init.py:init():547] calling init triggers
+2023-09-12 14:22:49,115 INFO    MainThread:19528 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0001, 'epochs': 200000, 'batch_size': 2, 'dataset': ['p10ArteryObjAN1-0_tree.dat', 'p10ArteryObjAN1-11_tree.dat', 'p10ArteryObjAN1-12_tree.dat', 'p10ArteryObjAN1-15_tree.dat', 'p10ArteryObjAN1-16_tree.dat', 'p10ArteryObjAN1-17_tree.dat', 'p10ArteryObjAN1-19_tree.dat', 'p10ArteryObjAN1-2_tree.dat', 'p10ArteryObjAN1-4_tree.dat', 'p10ArteryObjAN1-5_tree.dat', 'p10ArteryObjAN1-6_tree.dat', 'p10ArteryObjAN1-7_tree.dat', 'p10ArteryObjAN11-0_tree.dat', 'p10ArteryObjAN11-11_tree.dat', 'p10ArteryObjAN11-16_tree.dat', 'p10ArteryObjAN11-17_tree.dat', 'p10ArteryObjAN11-1_tree.dat', 'p10ArteryObjAN11-2_tree.dat', 'p10ArteryObjAN11-3_tree.dat', 'p10ArteryObjAN11-4_tree.dat', 'p10ArteryObjAN11-6_tree.dat', 'p10ArteryObjAN11-8_tree.dat', 'p10ArteryObjAN116-0_tree.dat', 'p10ArteryObjAN116-10_tree.dat', 'p10ArteryObjAN116-11_tree.dat', 'p10ArteryObjAN116-12_tree.dat', 'p10ArteryObjAN116-15_tree.dat', 'p10ArteryObjAN116-16_tree.dat', 'p10ArteryObjAN116-17_tree.dat', 'p10ArteryObjAN116-1_tree.dat', 'p10ArteryObjAN116-2_tree.dat', 'p10ArteryObjAN116-3_tree.dat', 'p10ArteryObjAN116-4_tree.dat', 'p10ArteryObjAN116-6_tree.dat', 'p10ArteryObjAN116-7_tree.dat', 'p10ArteryObjAN116-8_tree.dat', 'p10ArteryObjAN116-9_tree.dat', 'p10ArteryObjAN117-0_tree.dat', 'p10ArteryObjAN117-10_tree.dat', 'p10ArteryObjAN117-11_tree.dat', 'p10ArteryObjAN117-12_tree.dat', 'p10ArteryObjAN117-14_tree.dat', 'p10ArteryObjAN117-15_tree.dat', 'p10ArteryObjAN117-16_tree.dat', 'p10ArteryObjAN117-18_tree.dat', 'p10ArteryObjAN117-19_tree.dat', 'p10ArteryObjAN117-2_tree.dat', 'p10ArteryObjAN117-3_tree.dat', 'p10ArteryObjAN117-5_tree.dat', 'p10ArteryObjAN117-6_tree.dat', 'p10ArteryObjAN117-7_tree.dat', 'p10ArteryObjAN117-8_tree.dat', 'p10ArteryObjAN117-9_tree.dat', 'p10ArteryObjAN119-0_tree.dat', 'p10ArteryObjAN119-10_tree.dat', 'p10ArteryObjAN119-11_tree.dat', 'p10ArteryObjAN119-12_tree.dat', 'p10ArteryObjAN119-13_tree.dat', 'p10ArteryObjAN119-14_tree.dat', 'p10ArteryObjAN119-15_tree.dat', 'p10ArteryObjAN119-16_tree.dat', 'p10ArteryObjAN119-17_tree.dat', 'p10ArteryObjAN119-18_tree.dat', 'p10ArteryObjAN119-19_tree.dat', 'p10ArteryObjAN119-1_tree.dat', 'p10ArteryObjAN119-2_tree.dat', 'p10ArteryObjAN119-3_tree.dat', 'p10ArteryObjAN119-4_tree.dat', 'p10ArteryObjAN119-5_tree.dat', 'p10ArteryObjAN119-7_tree.dat', 'p10ArteryObjAN120-10_tree.dat', 'p10ArteryObjAN120-11_tree.dat', 'p10ArteryObjAN120-13_tree.dat', 'p10ArteryObjAN120-14_tree.dat', 'p10ArteryObjAN120-16_tree.dat', 'p10ArteryObjAN120-17_tree.dat', 'p10ArteryObjAN120-19_tree.dat', 'p10ArteryObjAN120-1_tree.dat', 'p10ArteryObjAN120-2_tree.dat', 'p10ArteryObjAN120-4_tree.dat', 'p10ArteryObjAN120-5_tree.dat', 'p10ArteryObjAN120-7_tree.dat', 'p10ArteryObjAN120-8_tree.dat', 'p10ArteryObjAN121-0_tree.dat', 'p10ArteryObjAN121-12_tree.dat', 'p10ArteryObjAN121-13_tree.dat', 'p10ArteryObjAN121-15_tree.dat', 'p10ArteryObjAN121-17_tree.dat', 'p10ArteryObjAN121-18_tree.dat', 'p10ArteryObjAN121-19_tree.dat', 'p10ArteryObjAN121-1_tree.dat', 'p10ArteryObjAN121-2_tree.dat', 'p10ArteryObjAN121-3_tree.dat', 'p10ArteryObjAN121-4_tree.dat', 'p10ArteryObjAN121-5_tree.dat', 'p10ArteryObjAN121-7_tree.dat', 'p10ArteryObjAN121-9_tree.dat', 'p10ArteryObjAN125-0_tree.dat', 'p10ArteryObjAN125-10_tree.dat', 'p10ArteryObjAN125-11_tree.dat'], 'number of trees': 100, 'optim': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0
+), 'latent_size': 128, 'params': 1786119, 'prof': 10}
+2023-09-12 14:22:49,115 INFO    MainThread:19528 [wandb_init.py:init():571] re-initializing run, found existing run on stack: qjsqduor
+2023-09-12 14:22:49,117 INFO    MainThread:19528 [wandb_run.py:_finish():1894] finishing run paufeldman/VesselVAE/qjsqduor
+2023-09-12 14:22:49,117 INFO    MainThread:19528 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-09-12 14:22:49,117 INFO    MainThread:19528 [wandb_run.py:_restore():2111] restore
+2023-09-12 14:22:49,117 INFO    MainThread:19528 [wandb_run.py:_restore():2117] restore done
+2023-09-12 14:22:54,560 INFO    MainThread:19528 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-12 14:22:54,560 INFO    MainThread:19528 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-12 14:22:54,565 INFO    MainThread:19528 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-09-12 14:22:54,722 INFO    MainThread:19528 [wandb_init.py:init():596] starting backend
+2023-09-12 14:22:54,722 INFO    MainThread:19528 [wandb_init.py:init():600] setting up manager
+2023-09-12 14:22:54,724 INFO    MainThread:19528 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-09-12 14:22:54,725 INFO    MainThread:19528 [wandb_init.py:init():606] backend started and connected
+2023-09-12 14:22:54,732 INFO    MainThread:19528 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-09-12 14:22:54,732 INFO    MainThread:19528 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-09-12 14:22:54,732 INFO    MainThread:19528 [wandb_init.py:init():697] updated telemetry
+2023-09-12 14:22:54,767 INFO    MainThread:19528 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-09-12 14:22:56,322 INFO    MainThread:19528 [wandb_run.py:_on_init():2180] communicating current version
+2023-09-12 14:22:56,613 INFO    MainThread:19528 [wandb_run.py:_on_init():2189] got version response upgrade_message: "wandb version 0.15.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-12 14:22:56,614 INFO    MainThread:19528 [wandb_init.py:init():781] starting run threads in backend
+2023-09-12 14:22:56,722 INFO    MainThread:19528 [wandb_run.py:_console_start():2159] atexit reg
+2023-09-12 14:22:56,722 INFO    MainThread:19528 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-09-12 14:22:56,722 INFO    MainThread:19528 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-09-12 14:22:56,722 INFO    MainThread:19528 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-09-12 14:22:56,723 INFO    MainThread:19528 [wandb_init.py:init():822] run started, returning control to user process
+2023-09-12 14:23:28,445 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:28,446 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,096 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,098 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,098 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,155 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,156 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,156 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,214 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,216 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,216 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,240 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,241 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,242 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,282 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,284 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,284 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,324 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,327 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,327 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,376 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,379 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,379 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,430 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,432 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,432 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,468 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,470 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,470 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,511 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,514 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,515 INFO    MainThread:19528 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-12 14:23:29,566 INFO    MainThread:19528 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-12 14:23:29,801 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Configure stats pid to 19528
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Loading settings from C:\Users\User\.config\wandb\settings
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Loading settings from c:\Users\User\Documents\VesselVAE\wandb\settings
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\User\Documents\VesselVAE\wandb\run-20230912_142329-q4dwy86n\logs\debug.log
+2023-09-12 14:23:29,802 INFO    MainThread:19528 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\User\Documents\VesselVAE\wandb\run-20230912_142329-q4dwy86n\logs\debug-internal.log
+2023-09-12 14:23:29,803 INFO    MainThread:19528 [wandb_init.py:init():547] calling init triggers
+2023-09-12 14:23:29,803 INFO    MainThread:19528 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0001, 'epochs': 200000, 'batch_size': 2, 'dataset': ['p10ArteryObjAN1-0_tree.dat', 'p10ArteryObjAN1-11_tree.dat', 'p10ArteryObjAN1-12_tree.dat', 'p10ArteryObjAN1-15_tree.dat', 'p10ArteryObjAN1-16_tree.dat', 'p10ArteryObjAN1-17_tree.dat', 'p10ArteryObjAN1-19_tree.dat', 'p10ArteryObjAN1-2_tree.dat', 'p10ArteryObjAN1-4_tree.dat', 'p10ArteryObjAN1-5_tree.dat', 'p10ArteryObjAN1-6_tree.dat', 'p10ArteryObjAN1-7_tree.dat', 'p10ArteryObjAN11-0_tree.dat', 'p10ArteryObjAN11-11_tree.dat', 'p10ArteryObjAN11-16_tree.dat', 'p10ArteryObjAN11-17_tree.dat', 'p10ArteryObjAN11-1_tree.dat', 'p10ArteryObjAN11-2_tree.dat', 'p10ArteryObjAN11-3_tree.dat', 'p10ArteryObjAN11-4_tree.dat', 'p10ArteryObjAN11-6_tree.dat', 'p10ArteryObjAN11-8_tree.dat', 'p10ArteryObjAN116-0_tree.dat', 'p10ArteryObjAN116-10_tree.dat', 'p10ArteryObjAN116-11_tree.dat', 'p10ArteryObjAN116-12_tree.dat', 'p10ArteryObjAN116-15_tree.dat', 'p10ArteryObjAN116-16_tree.dat', 'p10ArteryObjAN116-17_tree.dat', 'p10ArteryObjAN116-1_tree.dat', 'p10ArteryObjAN116-2_tree.dat', 'p10ArteryObjAN116-3_tree.dat', 'p10ArteryObjAN116-4_tree.dat', 'p10ArteryObjAN116-6_tree.dat', 'p10ArteryObjAN116-7_tree.dat', 'p10ArteryObjAN116-8_tree.dat', 'p10ArteryObjAN116-9_tree.dat', 'p10ArteryObjAN117-0_tree.dat', 'p10ArteryObjAN117-10_tree.dat', 'p10ArteryObjAN117-11_tree.dat', 'p10ArteryObjAN117-12_tree.dat', 'p10ArteryObjAN117-14_tree.dat', 'p10ArteryObjAN117-15_tree.dat', 'p10ArteryObjAN117-16_tree.dat', 'p10ArteryObjAN117-18_tree.dat', 'p10ArteryObjAN117-19_tree.dat', 'p10ArteryObjAN117-2_tree.dat', 'p10ArteryObjAN117-3_tree.dat', 'p10ArteryObjAN117-5_tree.dat', 'p10ArteryObjAN117-6_tree.dat', 'p10ArteryObjAN117-7_tree.dat', 'p10ArteryObjAN117-8_tree.dat', 'p10ArteryObjAN117-9_tree.dat', 'p10ArteryObjAN119-0_tree.dat', 'p10ArteryObjAN119-10_tree.dat', 'p10ArteryObjAN119-11_tree.dat', 'p10ArteryObjAN119-12_tree.dat', 'p10ArteryObjAN119-13_tree.dat', 'p10ArteryObjAN119-14_tree.dat', 'p10ArteryObjAN119-15_tree.dat', 'p10ArteryObjAN119-16_tree.dat', 'p10ArteryObjAN119-17_tree.dat', 'p10ArteryObjAN119-18_tree.dat', 'p10ArteryObjAN119-19_tree.dat', 'p10ArteryObjAN119-1_tree.dat', 'p10ArteryObjAN119-2_tree.dat', 'p10ArteryObjAN119-3_tree.dat', 'p10ArteryObjAN119-4_tree.dat', 'p10ArteryObjAN119-5_tree.dat', 'p10ArteryObjAN119-7_tree.dat', 'p10ArteryObjAN120-10_tree.dat', 'p10ArteryObjAN120-11_tree.dat', 'p10ArteryObjAN120-13_tree.dat', 'p10ArteryObjAN120-14_tree.dat', 'p10ArteryObjAN120-16_tree.dat', 'p10ArteryObjAN120-17_tree.dat', 'p10ArteryObjAN120-19_tree.dat', 'p10ArteryObjAN120-1_tree.dat', 'p10ArteryObjAN120-2_tree.dat', 'p10ArteryObjAN120-4_tree.dat', 'p10ArteryObjAN120-5_tree.dat', 'p10ArteryObjAN120-7_tree.dat', 'p10ArteryObjAN120-8_tree.dat', 'p10ArteryObjAN121-0_tree.dat', 'p10ArteryObjAN121-12_tree.dat', 'p10ArteryObjAN121-13_tree.dat', 'p10ArteryObjAN121-15_tree.dat', 'p10ArteryObjAN121-17_tree.dat', 'p10ArteryObjAN121-18_tree.dat', 'p10ArteryObjAN121-19_tree.dat', 'p10ArteryObjAN121-1_tree.dat', 'p10ArteryObjAN121-2_tree.dat', 'p10ArteryObjAN121-3_tree.dat', 'p10ArteryObjAN121-4_tree.dat', 'p10ArteryObjAN121-5_tree.dat', 'p10ArteryObjAN121-7_tree.dat', 'p10ArteryObjAN121-9_tree.dat', 'p10ArteryObjAN125-0_tree.dat', 'p10ArteryObjAN125-10_tree.dat', 'p10ArteryObjAN125-11_tree.dat'], 'number of trees': 100, 'optim': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 0
+), 'latent_size': 128, 'params': 1786119, 'prof': 10}
+2023-09-12 14:23:29,803 INFO    MainThread:19528 [wandb_init.py:init():571] re-initializing run, found existing run on stack: 43ouyhn5
+2023-09-12 14:23:29,804 INFO    MainThread:19528 [wandb_run.py:_finish():1894] finishing run paufeldman/VesselVAE/43ouyhn5
+2023-09-12 14:23:29,805 INFO    MainThread:19528 [jupyter.py:save_history():445] not saving jupyter history
+2023-09-12 14:23:29,805 INFO    MainThread:19528 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-12 14:23:29,805 INFO    MainThread:19528 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-09-12 14:23:29,805 INFO    MainThread:19528 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-09-12 14:23:29,805 INFO    MainThread:19528 [wandb_run.py:_restore():2111] restore
+2023-09-12 14:23:29,805 INFO    MainThread:19528 [wandb_run.py:_restore():2117] restore done
+2023-09-12 14:23:35,735 INFO    MainThread:19528 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-12 14:23:35,735 INFO    MainThread:19528 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-12 14:23:35,739 INFO    MainThread:19528 [wandb_run.py:_footer_sync_info():3440] logging synced files
