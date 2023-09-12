@@ -2,7 +2,11 @@
 
 ![teaser](overview.png)
 
-[Full paper](https://arxiv.org/pdf/2307.03592.pdf)
+# Full Paper
+[Arxiv](https://arxiv.org/pdf/2307.03592.pdf)
+
+# Demo
+[Huggingface](https://huggingface.co/spaces/paufeldman/vv)
 
 # Code 
 COMING SOON
