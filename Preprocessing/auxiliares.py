@@ -44,7 +44,7 @@ def read_obj(file):
 
 def vtpToObj (file):
     polydata_reader = vtk.vtkXMLPolyDataReader()
-    polydata_reader.SetFileName("centerlines/"+file)
+    polydata_reader.SetFileName("../centerlines/"+file)
     polydata_reader.Update()
         
     mapper = vtk.vtkPolyDataMapper()
@@ -64,7 +64,7 @@ def vtpToObj (file):
     ren.AddActor(actor)
 
     writer = vtk.vtkOBJExporter()
-    writer.SetFilePrefix("centerlines/"+file.split(".")[0]);
+    writer.SetFilePrefix("../centerlines/"+file.split(".")[0]);
     writer.SetInput(renWin);
     writer.Write()
     
@@ -367,7 +367,7 @@ def save_r_p (centerline, msh, file):
             po.GetParts().ReplaceItem(index+1, po.GetParts().GetItemAsObject(min_i+1))
  
     
-    np.save("radius/" + file.split(".")[0] + '-radius.npy', radius_array)
+    np.save("../radius/" + file.split(".")[0] + '-radius.npy', radius_array)
 
     ren = vtk.vtkRenderer()
     ren.AddActor(po)
@@ -377,7 +377,7 @@ def save_r_p (centerline, msh, file):
 
 
     writer = vtk.vtkOBJExporter()
-    writer.SetFilePrefix("crossSections/" + file.split(".")[0] + "-sections");
+    writer.SetFilePrefix("../crossSections/" + file.split(".")[0] + "-sections");
     writer.SetInput(renWin);
     writer.Write()
     return
